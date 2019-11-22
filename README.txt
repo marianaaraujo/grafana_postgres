@@ -11,7 +11,7 @@ Alterar o usuário de root pars postgres
 su - postgres
 
 Atualizar o TZ do usuário postgres
-export TZ = 'America/Bahia'
+export TZ='America/Bahia'
 
 Acessar o diretório tmp
 cd /tmp
