@@ -38,12 +38,3 @@ Importar o dashboard:
 ID: 11056 (https://grafana.com/grafana/dashboards/11056)
 
 Acessar o dashboard e alterar em todos os gráficos o DataSource para pg_db
-
-
-
-psql -h localhost -U postgres -W
-psql -q -h localhost -U postgres -f pgstatspack_create_tables.sql
-https://grafana.com/grafana/dashboards/11056
-pgsql\share\timezone\America\Bahia
-alter database databasename set timezone to 'America/Bahia';
-https://grafana.com/docs/features/datasources/postgres/
