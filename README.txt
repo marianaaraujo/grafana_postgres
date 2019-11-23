@@ -5,7 +5,7 @@ Copiar o diretório pgstatspack-2.3.3 para dentro do container do postgres:
 docker cp pgstatspack-2.3.3 postgres:/tmp
 
 Entrar no container do postgres
-docker exec -it postres bash
+docker exec -it postgres bash
 
 Alterar o usuário de root pars postgres
 su - postgres
@@ -38,3 +38,5 @@ Importar o dashboard:
 ID: 11056 (https://grafana.com/grafana/dashboards/11056)
 
 Acessar o dashboard e alterar em todos os gráficos o DataSource para pg_db
+
+Teste
