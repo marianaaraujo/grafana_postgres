@@ -38,5 +38,3 @@ Importar o dashboard:
 ID: 11056 (https://grafana.com/grafana/dashboards/11056)
 
 Acessar o dashboard e alterar em todos os gráficos o DataSource para pg_db
-
-Teste
